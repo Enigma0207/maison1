@@ -1,0 +1,31 @@
+h1{
+    color: red;
+}
+p,li{
+    color: blue;
+}
+li{
+    list-style-type: disc;
+}
+.special{
+    color: orange;
+    font-weight: bold;
+}
+li em {
+    color: rgb(47, 18, 212);
+}
+h1+p {
+    font-size: 150%;
+}
+span {
+color:red;
+}
+a:hover{
+    text-decoration: none;color: rgb(42, 5, 202);font-weight:bolder;
+}
+body h1+p .special{
+color: yellow;
+background-color: black;
+padding: 5px;
+}
+
